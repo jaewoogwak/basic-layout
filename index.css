@@ -1,0 +1,43 @@
+nav {
+  border: 1px solid black;
+  background-color: aqua;
+  height: 70px;
+  position: fixed;
+  width: 100vw;
+}
+main {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  height: 200vh;
+  width: 100vw;
+}
+article {
+  display: flex;
+  border: 1px solid black;
+  background-color: antiquewhite;
+  justify-content: center;
+}
+text {
+  align-self: center;
+  text-align: center;
+}
+aside {
+  display: flex;
+  position: sticky;
+  height: 100vh;
+  z-index: -1;
+  top: 70px;
+  border: 1px solid black;
+  background-color: aquamarine;
+  justify-content: center;
+}
+footer {
+  border: 1px solid black;
+  background-color: blueviolet;
+  height: 70px;
+}
+* {
+  margin: 0;
+  text-align: center;
+}
