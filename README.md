@@ -1,4 +1,4 @@
-# basic-layout
+# Basic-layout
 ## Basic layout 4 contents - nav bar, main contents, side bar, footer
 
 ### https://jaewoogwak.github.io/basic-layout/
